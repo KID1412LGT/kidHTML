@@ -2,24 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      * {
-        border: 1px black solid;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
+    <title>水质监测平台</title>
   </head>
   <body>
-    <div>
-      <img
-        src="https://ts2.cn.mm.bing.net/th?id=ODL.bf9a2e785d0f49dbd07dd2050f6897f0&w=146&h=146&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=RichNav"
-        alt=""
-        style="width: 80px; height: 80px; margin: 0px auto"
-      />
-    </div>
-    <div>
-      <h1>WelCome</h1>
+    <div class="app row">
+      <div id="left" class="column">
+        <div class="l1 column">
+          <br /><br /><br /><br />
+          <span class="zit" style="font-size: 36px"> 2023年3月15日 3:32:09</span
+          ><br /><br /><br />
+          <span class="zit">当前在线人数：1</span><br />
+          <span class="zit">累计访问人数：16</span><br />
+          <span class="zit">平台受到攻击次数：0</span><br />
+          <span class="zit">监测设备异常数：0/5</span>
+        </div>
+        <div class="l2 column">
+          <img src="./res/pre.jpg" alt="pre" class="wh100" />
+          <br />
+          <span class="tit1">当前水质及反演情况可视化</span>
+        </div>
+      </div>
+      <div id="mid" class="column">
+        <div class="m1 column">
+          <span class="tit">SHOU水质数据可视化大屏</span>
+        </div>
+        <div class="m2">
+          <div class="mp">
+            <img src="./res/map.jpg" alt="map" class="wh100" />
+          </div>
+        </div>
+      </div>
+      <div id="right" class="column">
+        <div class="r1 mtp">
+          <img src="./res/table1.png" alt="6" class="wh100" />
+        </div>
+        <div class="r2 mbp">
+          <img src="./res/table2.png" alt="6" class="wh100" />
+        </div>
+      </div>
     </div>
   </body>
 </html>
